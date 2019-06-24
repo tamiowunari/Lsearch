@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(99, 8, 8);
+    font-family: Arial;
+    color: white;
+}
+.container{
+    width: 500px;
+    padding: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid grey;
+    border-radius: 24px;
+}
+a{
+    color: rgb(98, 214, 230)
+}

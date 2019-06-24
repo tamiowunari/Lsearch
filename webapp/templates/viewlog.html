@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>view logins</title>
+        <link rel="stylesheet" href="static/view_style.css">
+    </head>
+    <body>
+        <h2>View Logins</h2>
+        <table>
+            <tr>
+                {% for row_title in the_row_titles %}
+                    <th>{{row_title}}</th>
+                {% endfor %}
+            </tr>
+            {% for log_row in the_data %}
+                <tr>
+                    {% for items in log_row %}
+                    <td>{{items}}</td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>

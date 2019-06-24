@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta name="portview" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <title>result page</title>
+        <link rel="stylesheet" href="static/result_style.css">
+    </head>
+    <body>
+        <div class="container">
+        <h2>Here are your results: </h2>
+        <p>You submitted the following data: </p>
+        <table>
+            <tr><td><b>Phrase: </b></td><td>{{the_phrase}}</td></tr>
+            <tr><td><b>Letters: </b></td><td>{{the_letters}}</td></tr>
+        </table>
+        <p>When "{{the_phrase}}" is searched for "{{the_letters}}", the following results were obtained: </p>
+        <h3>{{the_result}}</h3>
+        <br>
+        <a href="http://127.0.0.1:5000/">Back to Entry page</a>
+        </div>
+    </body>
+</html>

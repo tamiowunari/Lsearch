@@ -1,0 +1,5 @@
+ImmutableMultiDict([('phrase', 'hitch-hicker'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; WOW64; rv:68.0) Gecko/20100101 Firefox/68.0|{'i', 'e'}
+ImmutableMultiDict([('phrase', 'life, the universe and beyond'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; WOW64; rv:68.0) Gecko/20100101 Firefox/68.0|{'a', 'u', 'e', 'i', 'o'}
+ImmutableMultiDict([('phrase', 'galaxy'), ('letters', 'xyz')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; WOW64; rv:68.0) Gecko/20100101 Firefox/68.0|{'x', 'y'}
+ImmutableMultiDict([('phrase', 'mountainer'), ('letters', 'ret')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240|{'e', 'r', 't'}
+ImmutableMultiDict([('phrase', 'Elephant'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240|{'a', 'e'}
